@@ -71,4 +71,9 @@ Pour effectuer ses représentations de chaque page, j'ai utilisé le service en 
 
 ![Screenshot de la page Contact](img/ReadMe/Contact.png "Screenshot de la page Contact")
 
+---
+
+- Le code navbar recuperer chez [Start Bootstrap](https://startbootstrap.com/snippets/navbar-logo)
+- Le code footer recuperer chez [MDBootstrap](https://mdbootstrap.com/snippets/standard/mdbootstrap/2886162)
+
 Vous trouverez juste en haut (site Online) le résultat final.

@@ -10,9 +10,528 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet" />
     <title>Papy Crispy | Menu</title>
   </head>
-  <body></body>
+  <body>
+    <section class="header">
+      <!-- Navbar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary navbar-fixed-topstatic-top">
+        <div class="container">
+          <a class="navbar-brand d-flex" href="homepage.html">
+            <img src="img/logo/logo-p-white.png" alt="..." height="36" />
+            <div class="text-logo ms-2">Papy Crispy</div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="picture.html">Pictures</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- End Navbar -->
+      <!-- Carrousel -->
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/menu/1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/menu/2.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/menu/3.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/menu/4.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/menu/5.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/menu/6.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/menu/7.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/menu/8.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/menu/9.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/menu/10.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- End Carrousel -->
+    </section>
+
+    <div class="container d-flex justify-content-center align-items-center p-5">
+      <h2>Menu Crispy Natchos</h2>
+    </div>
+
+    <!-- Menu -->
+    <section class="items">
+      <!-- Buritos -->
+      <div class="container d-flex pb-5">
+        <div class="container left d-flex flex-column justify-content-center align-items-center col-12 col-sm-4">
+          <div class="row">
+            <div class="">
+              <img src="img/menu/burito1.png" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="pt-2">
+              <h2>Papy Buritos</h2>
+            </div>
+            <div class="row">
+              <div class="p-2"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="bg-success text-white px-4 py-2">Price : 6€<sup>99</sup></div>
+          </div>
+        </div>
+        <div class="container right d-flex flex-column justify-content-center align-items-center col-12 col-sm-8">
+          <div class="row">
+            <div class="">
+              <li>Buritos description menu right here on one line Buritos description menu right here on one line</li>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>Buritos description menu right here on one line Buritos description menu right here on one line</li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>Buritos description menu right here on one line Buritos description menu right here on one line</li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>Buritos description menu right here on one line Buritos description menu right here on one line</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Buritos -->
+      <!-- Natchos -->
+      <div class="container d-flex pb-5">
+        <div class="container left d-flex flex-column justify-content-center align-items-center col-12 col-sm-4">
+          <div class="row">
+            <div class="">
+              <img src="img/menu/natchos1.png" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="pt-2">
+              <h2>Papy Natchos</h2>
+            </div>
+            <div class="row">
+              <div class="p-2"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="bg-success text-white px-4 py-2">Price : 6€<sup>99</sup></div>
+          </div>
+        </div>
+        <div class="container right d-flex flex-column justify-content-center align-items-center col-12 col-sm-8">
+          <div class="row">
+            <div class="">
+              <li>Natchos description menu right here on one line Natchos description menu right here on one line</li>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>Natchos description menu right here on one line Natchos description menu right here on one line</li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>Natchos description menu right here on one line Natchos description menu right here on one line</li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>Natchos description menu right here on one line Natchos description menu right here on one line</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Natchos -->
+      <!-- Chilaquiles -->
+      <div class="container d-flex pb-5">
+        <div class="container left d-flex flex-column justify-content-center align-items-center col-12 col-sm-4">
+          <div class="row">
+            <div class="">
+              <img src="img/menu/Chilaquiles1.png" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="pt-2">
+              <h2>Papy Chilaquiles</h2>
+            </div>
+            <div class="row">
+              <div class="p-2"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="bg-success text-white px-4 py-2">Price : 9€<sup>99</sup></div>
+          </div>
+        </div>
+        <div class="container right d-flex flex-column justify-content-center align-items-center col-12 col-sm-8">
+          <div class="row">
+            <div class="">
+              <li>Chilaquiles description menu right here on one line Chilaquiles de menu right here on one line</li>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>Chilaquiles description menu right here on one line Chilaquiles dion menu right here on one line</li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>Chilaquiles description menu right here on one line Chilaquiles deon menu right here on one line</li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>Chilaquiles description menu right here on one line Chilaquiles don menu right here on one line</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Chilaquiles -->
+
+      <!-- fajitas -->
+      <div class="container d-flex pb-5">
+        <div class="container left d-flex flex-column justify-content-center align-items-center col-12 col-sm-4">
+          <div class="row">
+            <div class="">
+              <img src="img/menu/fajitas1.png" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="pt-2">
+              <h2>Papy Fajitas</h2>
+            </div>
+            <div class="row">
+              <div class="p-2"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="bg-success text-white px-4 py-2">Price : 3€<sup>99</sup></div>
+          </div>
+        </div>
+        <div class="container right d-flex flex-column justify-content-center align-items-center col-12 col-sm-8">
+          <div class="row">
+            <div class="">
+              <li>fajitas description menu right here on one line fajitas de menu right here on one line</li>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>fajitas description menu right here on one line fajitas dion menu right here on one line</li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>fajitas description menu right here on one line fajitas deon menu right here on one line</li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>fajitas description menu right here on one line fajitas don menu right here on one line</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End fajitas -->
+      <!-- tacos -->
+      <div class="container d-flex pb-5">
+        <div class="container left d-flex flex-column justify-content-center align-items-center col-12 col-sm-4">
+          <div class="row">
+            <div class="">
+              <img src="img/menu/tacos1.png" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="pt-2">
+              <h2>Papy Tacos</h2>
+            </div>
+            <div class="row">
+              <div class="p-2"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="bg-success text-white px-4 py-2">Price : 2€<sup>99</sup></div>
+          </div>
+        </div>
+        <div class="container right d-flex flex-column justify-content-center align-items-center col-12 col-sm-8">
+          <div class="row">
+            <div class="">
+              <li>tacos description menu right here on one line tacos de menu right here on one line</li>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>tacos description menu right here on one line tacos dion menu right here on one line</li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>tacos description menu right here on one line tacos deon menu right here on one line</li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>tacos description menu right here on one line tacos don menu right here on one line</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End tacos -->
+      <!-- tapas -->
+      <div class="container d-flex pb-5">
+        <div class="container left d-flex flex-column justify-content-center align-items-center col-12 col-sm-4">
+          <div class="row">
+            <div class="">
+              <img src="img/menu/tapas1.png" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="pt-2">
+              <h2>Papy Tapas</h2>
+            </div>
+            <div class="row">
+              <div class="p-2"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="bg-success text-white px-4 py-2">Price : 4€<sup>99</sup></div>
+          </div>
+        </div>
+        <div class="container right d-flex flex-column justify-content-center align-items-center col-12 col-sm-8">
+          <div class="row">
+            <div class="">
+              <li>tapas description menu right here on one line tapas de menu right here on one line</li>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>tapas description menu right here on one line tapas dion menu right here on one line</li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>tapas description menu right here on one line tapas deon menu right here on one line</li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>tapas description menu right here on one line tapas don menu right here on one line</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End tapas -->
+      <!-- tortilla -->
+      <div class="container d-flex pb-5">
+        <div class="container left d-flex flex-column justify-content-center align-items-center col-12 col-sm-4">
+          <div class="row">
+            <div class="">
+              <img src="img/menu/tortilla1.png" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="pt-2">
+              <h2>Papy Tortilla</h2>
+            </div>
+            <div class="row">
+              <div class="p-2"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="bg-success text-white px-4 py-2">Price : 3€<sup>99</sup></div>
+          </div>
+        </div>
+        <div class="container right d-flex flex-column justify-content-center align-items-center col-12 col-sm-8">
+          <div class="row">
+            <div class="">
+              <li>tortilla description menu right here on one line tortilla de menu right here on one line</li>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>tortilla description menu right here on one line tortilla dion menu right here on one line</li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>tortilla description menu right here on one line tortilla deon menu right here on one line</li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>tortilla description menu right here on one line tortilla don menu right here on one line</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End tortilla -->
+      <!-- Tostada -->
+      <div class="container d-flex pb-5">
+        <div class="container left d-flex flex-column justify-content-center align-items-center col-12 col-sm-4">
+          <div class="row">
+            <div class="">
+              <img src="img/menu/Tostada1.png" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="pt-2">
+              <h2>Papy Tostada</h2>
+            </div>
+            <div class="row">
+              <div class="p-2"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="bg-success text-white px-4 py-2">Price : 1€<sup>99</sup></div>
+          </div>
+        </div>
+        <div class="container right d-flex flex-column justify-content-center align-items-center col-12 col-sm-8">
+          <div class="row">
+            <div class="">
+              <li>Tostada description menu right here on one line Tostada de menu right here on one line</li>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>Tostada description menu right here on one line Tostada dion menu right here on one line</li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>Tostada description menu right here on one line Tostada deon menu right here on one line</li>
+              </div>
+            </div>
+            <div class="row">
+              <div class="">
+                <li>Tostada description menu right here on one line Tostada don menu right here on one line</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Tostada -->
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+      <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="bi bi-facebook"></i> </a>
+
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="bi bi-twitter"></i></a>
+
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="bi bi-google"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="bi bi-instagram"></i></a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i class="bi bi-linkedin"></i></a>
+
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/ElazzouziNordineBeCode" target="_blank" role="button"><i class="bi bi-github"></i></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2022 Copyright:
+          <a class="text-white" href="https://github.com/ElazzouziNordineBeCode" target="_blank">Nordine BeCode</a>
+        </div>
+        <!-- End Copyright -->
+      </footer>
+    </section>
+
+    <!-- End Footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
