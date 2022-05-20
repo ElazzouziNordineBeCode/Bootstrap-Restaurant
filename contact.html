@@ -19,7 +19,7 @@
     <section class="header">
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary navbar-fixed-topstatic-top">
         <div class="container">
-          <a class="navbar-brand d-flex" href="homepage.html">
+          <a class="navbar-brand d-flex" href="index.html">
             <img src="img/logo/logo-p-white.png" alt="..." height="36" />
             <div class="text-logo ms-2">Papy Crispy</div>
           </a>
@@ -63,50 +63,80 @@
         </div>
       </nav>
     </section>
-    <section class="main" style="background: linear-gradient(rgb(0, 0, 0, 0.1) 10%, rgb(0, 0, 0, 0.3) 90%), url('img/contact/bg.jpg') no-repeat top center/cover; min-height: 100vh">
-      <!-- End contact form -->
+    <section
+      class="main d-flex align-items-center justify-content-center"
+      style="background: linear-gradient(rgb(0, 0, 0, 0.1) 10%, rgb(0, 0, 0, 0.3) 90%), url('img/contact/bg.jpg') no-repeat top center/cover; min-height: 100vh"
+    >
+      <!-- Contact form -->
 
       <!-- Wrapper container -->
       <div class="container py-4">
-        <!-- Bootstrap 5 starter form -->
-        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-          <!-- Name input -->
-          <div class="mb-3">
-            <label class="form-label" for="name">Name</label>
-            <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
-            <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
-          </div>
+        <div class="row justify-content-end align-items-center">
+          <div class="col-12 col-xl-6">
+            <!-- Bootstrap 5 starter form -->
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+              <!-- Name input -->
+              <div class="mb-3">
+                <label class="form-label" for="name">Name</label>
+                <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="firstname">First name</label>
+                <input class="form-control" id="firstname" type="text" placeholder="firstname" data-sb-validations="required" />
+                <div class="invalid-feedback" data-sb-feedback="firstname:required">Firstname is required.</div>
+              </div>
 
-          <!-- Email address input -->
-          <div class="mb-3">
-            <label class="form-label" for="emailAddress">Email Address</label>
-            <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
-            <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
-            <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
-          </div>
+              <!-- Email address input -->
+              <div class="mb-3">
+                <label class="form-label" for="emailAddress">Email Address</label>
+                <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
+                <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+              </div>
 
-          <!-- Message input -->
-          <div class="mb-3">
-            <label class="form-label" for="message">Message</label>
-            <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem" data-sb-validations="required"></textarea>
-            <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
-          </div>
+              <!-- Select option -->
+              <label class="form-label" for="name">Choose a restaurant</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>What restaurant</option>
+                <option value="1">Papy Crispy Brussels</option>
+                <option value="2">Papy Crispy Antwerp</option>
+                <option value="3">Papy Crispy Charleroi</option>
+                <option value="3">Become a francheese</option>
+                <option value="3">Other</option>
+              </select>
 
-          <!-- Form submissions success message -->
-          <div class="d-none" id="submitSuccessMessage">
-            <div class="text-center mb-3">Form submission successful!</div>
-          </div>
+              <!-- Subject input -->
+              <div class="mb-3">
+                <label class="form-label" for="subject">Name</label>
+                <input class="form-control" id="subject" type="text" placeholder="subject" data-sb-validations="required" />
+                <div class="invalid-feedback" data-sb-feedback="subject:required">Subject is required.</div>
+              </div>
 
-          <!-- Form submissions error message -->
-          <div class="d-none" id="submitErrorMessage">
-            <div class="text-center text-danger mb-3">Error sending message!</div>
-          </div>
+              <!-- Message input -->
+              <div class="mb-3">
+                <label class="form-label" for="message">Message</label>
+                <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem" data-sb-validations="required"></textarea>
+                <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+              </div>
 
-          <!-- Form submit button -->
-          <div class="d-grid">
-            <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
+              <!-- Form submissions success message -->
+              <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center mb-3">Form submission successful!</div>
+              </div>
+
+              <!-- Form submissions error message -->
+              <div class="d-none" id="submitErrorMessage">
+                <div class="text-center text-danger mb-3">Error sending message!</div>
+              </div>
+
+              <!-- Form submit button -->
+              <div class="d-grid">
+                <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
+              </div>
+            </form>
           </div>
-        </form>
+        </div>
       </div>
 
       <!-- SB Forms JS -->
